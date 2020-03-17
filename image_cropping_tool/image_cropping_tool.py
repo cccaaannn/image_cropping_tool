@@ -173,7 +173,7 @@ def image_cropping_tool(images_path, save_folder="cropped", override_existing=Fa
         if(not __drawing__):
             cv2.imshow(window_name, image)  
         
-        key = cv2.waitKey(30)
+        key = cv2.waitKey(10)
         
 
         # crop and save images
